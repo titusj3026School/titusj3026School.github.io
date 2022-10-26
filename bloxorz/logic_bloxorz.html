@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <script src="/ruffle/ruffle.js" type="7cba28b63e5d22e6e768fdae-text/javascript"></script>
+    <script type="7cba28b63e5d22e6e768fdae-text/javascript">
+	window.RufflePlayer = window.RufflePlayer || {};
+	window.addEventListener("load", (event) => {
+	const ruffle = window.RufflePlayer.newest();
+	const player = ruffle.createPlayer();
+	player.style.width = "660px"; 
+	player.style.height = "360px";
+	const container = document.getElementById("game");
+	container.appendChild(player);
+	player.load("/flash-games/logic/bloxorz.swf");
+	});
+</script>
+  </body>
+</html>
